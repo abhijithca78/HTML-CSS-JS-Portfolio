@@ -335,6 +335,8 @@ section {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
 }
 
 .about-details-container {
@@ -345,6 +347,7 @@ section {
 .about-containers,
 .about-details-container {
     display: flex;
+    
 }
 
 .about-pic {
