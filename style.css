@@ -496,3 +496,12 @@ footer p {
   padding: 2px 6px;
   border-radius: 6px;
 }
+
+.details-container:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+}
+
+.text-container p {
+  line-height: 1.7;
+}
